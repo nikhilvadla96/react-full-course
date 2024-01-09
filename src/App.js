@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
-import Index from './UseState/final/1-UseStateBasics';
+import Index from './UseState/final/6-UseStateExample';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{textAlign:"center"}}>
 
       <Index/>
     </div>
