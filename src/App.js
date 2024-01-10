@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import Index from './UseState/final/6-UseStateExample';
+import Index from './UseState/final/6.2-UseStateExample';
 
 function App() {
   return (
