@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h3{
+   color: aqua;
+}
+.movie-container{
+    background: whitesmoke;
+    width: 100%;
+    max-width: 1200px;
+    margin: 3rem auto;
+}
+
+@media screen and (min-width:99px){
+    .movie-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+    }
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0px 20px;
+}
+
+.profile-card {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 10px 2px black;
+
+}
+.profile-card img {
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+}
+.profile-card .title {
+   margin-top: 20px;
+    color: blue;
+} 
+.profile-card a{
+    display: inline-block;
+    margin-top: 20px;
+    color: red;
+    font-size: 20px;
+    padding: 10px; 
+    border: 1px solid black;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+@media screen and (min-width:768px){
+    .posts-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+    }
+}
+li {
+    list-style-type: none;
+}
+comments-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.comments{
+    background: white;
+    padding: 16px;
+    font-size: 16px;
+}
+.comments .email{
+    font-size:16px ;
+    color: black;
+}
+@media screen and (min-width:768px){
+    .comments-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+    }
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 1pc;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
