@@ -1,11 +1,10 @@
 import React,{useState} from 'react'
-import Index from './UseState/final/6.2-UseStateExample';
-
+import UseEffect from './UseEffect/5-UseEffectExample';
 function App() {
   return (
-    <div className="App" style={{textAlign:"center"}}>
+    <div className="App">
 
-      <Index/>
+      <UseEffect/>
     </div>
   );
 }
